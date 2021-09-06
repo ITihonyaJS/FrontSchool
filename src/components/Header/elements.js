@@ -20,7 +20,8 @@ export const HeaderBlock1 = styled.div`
 export const HeaderBlock2 = styled.div`
 	display: flex;
 	justify-content:space-between;	
-	margin: 0px 0px 82px 0px
+	margin: 0px 0px 82px 0px;
+	font-family: "Inter";
 `
 
 export const ButtonBlock = styled.div`
