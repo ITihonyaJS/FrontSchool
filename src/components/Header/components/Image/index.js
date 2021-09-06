@@ -5,7 +5,7 @@ import React from 'react';
 const Image = () => {
 	return (
 		<>
-			<h1>Это Image</h1>	
+			<img src="../../image/1.png" alt="опять не получилось" />	
 		</>
 	);
 };

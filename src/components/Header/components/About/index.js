@@ -1,12 +1,19 @@
 import React from 'react';
-// import {HeaderContainer, Logo} from "./elements";
-// import {Button, ViewBlock, Wrapper} from "../elements";
+import {AboutContainer} from "../../elements";
 
 const About = () => {
 	return (
-		<>
-			<h1>Это About</h1>
-		</>
+		<AboutContainer>
+			<div>
+				<p>Inspiration Technology.</p>
+			</div>
+			<div>
+				<p>Runs faster.
+					Costs less
+					and never breaks.
+				</p>
+			</div>
+		</AboutContainer>
 	);
 };
 

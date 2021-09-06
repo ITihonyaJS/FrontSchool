@@ -18,7 +18,8 @@ export const HeaderBlock1 = styled.div`
 `
 
 export const HeaderBlock2 = styled.div`
-	display: flex;	
+	display: flex;
+	justify-content:space-between;	
 	margin: 0px 0px 82px 0px
 `
 
@@ -36,6 +37,17 @@ export const ButtonBlock = styled.div`
 `
 export const NavContainer = styled.ul`
 	display: flex;
+	width: 495px;
+	height: 32px;
+	justify-content:space-between;
+	font-size: 20px;
+	color: #FFFFFF;
+	font-weight: 500;			
+`
+
+export const AboutContainer = styled.ul`
+	display: flex;
+	flex-direction:column;
 	width: 495px;
 	height: 32px;
 	justify-content:space-between;
