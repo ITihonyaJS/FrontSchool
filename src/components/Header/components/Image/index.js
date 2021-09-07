@@ -1,11 +1,12 @@
 import React from 'react';
-// import {HeaderContainer, Logo} from "./elements";
-// import {Button, ViewBlock, Wrapper} from "../elements";
+
+ import PicturesHeader from "../../image/1.png"
+
 
 const Image = () => {
 	return (
 		<>
-			<img src="../../image/1.png" alt="опять не получилось" />	
+			<img src={PicturesHeader} alt="Ой, картинки нет" />	
 		</>
 	);
 };

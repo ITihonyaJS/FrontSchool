@@ -1,10 +1,11 @@
 import React from 'react';
-import {ButtonBlock, Butt} from "../../elements";
+import {ButtonBlock} from "../../elements";
 
 
-const Button = (props) => {
+const Button = (props) => {	
+	
 	return (
-		<ButtonBlock primary={props.primary}>
+		<ButtonBlock type_background={props.type_background}  type_border={props.type_border}>
 			Get Started
 		</ButtonBlock>
 	);

@@ -17,10 +17,10 @@ const Header = () => {
 				<HeaderBlock1>
 					<Logo></Logo>
 					<Nav></Nav>
-					<Button primary></Button>
+					<Button type_background="primary"/>
 				</HeaderBlock1>
 				<HeaderBlock2>
-					<About></About>
+					<About />
 					<Image></Image>
 				</HeaderBlock2>
 			</HeaderWrapper>

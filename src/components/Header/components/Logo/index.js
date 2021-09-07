@@ -1,11 +1,11 @@
 import React from 'react';
-// import {HeaderContainer, Logo} from "./elements";
-// import {Button, ViewBlock, Wrapper} from "../elements";
+
+import LogoHeader from "../../image/logo.png"
 
 const Logo = () => {
 	return (
 		<>
-			<img src="src\components\Header\image\logo.png" alt="Ой картинки нет" />
+			<img src={LogoHeader} alt="Ой картинки нет" />
 		</>
 	);
 };
