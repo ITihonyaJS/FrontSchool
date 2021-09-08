@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { AboutTypographyContainer, AboutButtonContainer, AboutBlock, Typography } from "../../elements";
+import { AboutTypographyContainer,AboutTypographyBlock, AboutButtonContainer, AboutBlock, Typography } from "../../elements";
 
 import Button from '../Button/index';
 
@@ -8,7 +8,7 @@ const About = (props) => {
 	return (
 		<AboutBlock>
 			<AboutTypographyContainer>
-				<div>
+				<AboutTypographyBlock>
 					<Typography
 						type_fz="average"
 						type_color="white"
@@ -19,8 +19,12 @@ const About = (props) => {
 					>
 						Inspiration Technology.
 					</Typography>
-				</div>
-				<div>
+				</AboutTypographyBlock>
+				<AboutTypographyBlock					
+					type_border="yes"
+					type_margin="yes"
+					type_padding="yes"
+				>
 					<Typography
 						type_fz="super big"
 						type_color="white"
@@ -36,19 +40,19 @@ const About = (props) => {
 					>
 						Costs less and never breaks.
 					</Typography>
-				</div>
-				<div>
+				</AboutTypographyBlock>
+				<AboutTypographyBlock>
 					<Typography						
 						type_color="white"
 						type_op="yes"						
 					>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sapien lectus sit tristique rhoncus, nisi, malesuada. Tellus consequat 
 					</Typography>
-				</div>
+				</AboutTypographyBlock>
 			</AboutTypographyContainer>
 			<AboutButtonContainer>
-				<Button type_background="primary" />
-				<Button type_border="border" />
+				<Button type_text="Get Started" type_background="primary" />
+				<Button type_text="Free Trail" type_border="border" />
 			</AboutButtonContainer>
 		</AboutBlock>
 

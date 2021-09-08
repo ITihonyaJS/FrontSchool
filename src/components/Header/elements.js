@@ -1,13 +1,16 @@
 import styled from "styled-components";
 
-export const HeaderWrapper = styled.div`
-  max-width: 1134px;
-  margin: 0 auto;
-`
+
 
 export const HeaderContainer = styled.div`
   background: linear-gradient(264.47deg, #2E43F0 29.39%, #6677FF 93.49%);
+  height: 820px;
   padding: 60px 0 70px;  
+`
+
+export const HeaderWrapper = styled.div`
+  max-width: 1134px;
+  margin: 0 auto;
 `
 
 export const HeaderBlock1 = styled.div`
@@ -25,18 +28,21 @@ export const HeaderBlock2 = styled.div`
 	font-family: "Inter";	
 `
 
-export const ButtonBlock = styled.div`
+export const ButtonBlock = styled.div`	
+	display:flex;
+	justify-content: center;
+	align-items: center;
 	cursor: pointer;
-	max-width: 172px;
-	max-height: 62px;	
-	padding: 15px 30px 15px 30px;	
+	width: 172px;
+	height: 62px;	
+	padding: 15px 30px;	
 	background-color: ${props => props.type_background === "primary" ? '#FF5A05' : props.type_background === 'secondary' ? 'rgba(255, 90, 5, 0.1)' : 'transparent' };		
 	border: ${props => props.type_border === 'border' ? '1px solid #808080' : props.type_border ? '' : 'transparent' };
-	border-radius: 4px;
-	text-align: center;	
+	border-radius: 4px;	
 	color: #FFFFFF;
-	font-size: 20px;	
+	font-size: 20px;		
 	font-weight: 500;
+	box-sizing: border-box;
 `
 export const NavContainer = styled.ul`
 	display: flex;
@@ -69,10 +75,19 @@ export const AboutTypographyContainer = styled.div`
 	margin: 0px 0px 43px 0px;			
 `
 
+export const AboutTypographyBlock = styled.div`
+	box-sizing: border-box;
+	border-bottom: ${props => props.type_border === "yes" ? '1px solid #FFFFFF' :			  	
+	   'transparent' };
+	margin: ${props => props.type_margin === "yes" ? '0px 0px 20px 0px' :			  	
+	   'transparent' };
+	padding: ${props => props.type_padding === "yes" ? '20px 0px 20px 0px' :			  	
+	   'transparent' };			
+`
+
 export const AboutButtonContainer = styled.div`
 	display: flex;	
-	justify-content:space-between;
-	align-items:center;				
+	justify-content:space-between;				
 `
 
 export const Typography = styled.p`	

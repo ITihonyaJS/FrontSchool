@@ -17,7 +17,7 @@ const Header = () => {
 				<HeaderBlock1>
 					<Logo></Logo>
 					<Nav></Nav>
-					<Button type_background="primary"/>
+					<Button type_text="Get Started" type_background="primary"/>
 				</HeaderBlock1>
 				<HeaderBlock2>
 					<About />
