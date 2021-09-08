@@ -1,8 +1,8 @@
 import React from 'react';
 
-import ArrayNav from "../../../../arrayNav.json"
+import ArrayNav from "./arrayNav.json"
 import {NavContainer} from "../../elements";
-// import {Button, ViewBlock, Wrapper} from "../elements";
+
 
 const Nav = () => {
 	const data = ArrayNav
