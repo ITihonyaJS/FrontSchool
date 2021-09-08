@@ -43,6 +43,7 @@ export const ButtonBlock = styled.div`
 	font-size: 20px;		
 	font-weight: 500;
 	box-sizing: border-box;
+	margin: 0px 40px 0px 0px;
 `
 export const NavContainer = styled.ul`
 	display: flex;
@@ -87,7 +88,7 @@ export const AboutTypographyBlock = styled.div`
 
 export const AboutButtonContainer = styled.div`
 	display: flex;	
-	justify-content:space-between;				
+	justify-content:flex-start;				
 `
 
 export const Typography = styled.p`	
