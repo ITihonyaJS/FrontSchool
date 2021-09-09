@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 
 export const CommunityContainer = styled.div`
-  background: #E5E5E5;
+  background: #FFFFFF;
   height: 540px;    
 `
 

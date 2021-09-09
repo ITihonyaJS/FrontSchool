@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 
 export const PartnersContainer = styled.div`
-  background: #E5E5E5;
+  background: #FFFFFF;
   height: 450px;
   padding: 121px 0px;  
 `
