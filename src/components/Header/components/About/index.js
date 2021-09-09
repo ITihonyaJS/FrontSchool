@@ -2,7 +2,7 @@ import React from 'react';
 
 import { AboutTypographyContainer,AboutTypographyBlock, AboutButtonContainer, AboutBlock, Typography } from "../../elements";
 
-import Button from '../Button/index';
+import Button from '../../../GeneralComponents/Button/index';
 
 const About = (props) => {
 	return (

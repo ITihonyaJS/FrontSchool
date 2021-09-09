@@ -1,5 +1,5 @@
 import React from 'react';
-import {ButtonBlock} from "../../elements";
+import {ButtonBlock} from "../../../generalElements";
 
 
 const Button = (props) => {	

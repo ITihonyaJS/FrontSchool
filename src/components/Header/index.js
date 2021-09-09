@@ -5,7 +5,7 @@ import {HeaderContainer, HeaderWrapper,HeaderBlock1,HeaderBlock2} from "./elemen
 
 import Logo from './components/Logo/index';
 import Nav from './components/Nav/index';
-import Button from './components/Button/index';
+import Button from '../GeneralComponents/Button/index';
 import About from './components/About/index';
 import Image from './components/Image/index';
 

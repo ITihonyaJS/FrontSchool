@@ -1,3 +1,4 @@
+
 import styled from "styled-components";
 
 
@@ -28,23 +29,7 @@ export const HeaderBlock2 = styled.div`
 	font-family: "Inter";	
 `
 
-export const ButtonBlock = styled.div`	
-	display:flex;
-	justify-content: center;
-	align-items: center;
-	cursor: pointer;
-	width: 172px;
-	height: 62px;	
-	padding: 15px 30px;	
-	background-color: ${props => props.type_background === "primary" ? '#FF5A05' : props.type_background === 'secondary' ? 'rgba(255, 90, 5, 0.1)' : 'transparent' };		
-	border: ${props => props.type_border === 'border' ? '1px solid #808080' : props.type_border ? '' : 'transparent' };
-	border-radius: 4px;	
-	color: #FFFFFF;
-	font-size: 20px;		
-	font-weight: 500;
-	box-sizing: border-box;
-	margin: 0px 40px 0px 0px;
-`
+
 export const NavContainer = styled.ul`
 	display: flex;
 	width: 495px;
