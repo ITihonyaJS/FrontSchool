@@ -65,8 +65,8 @@ const Community = () => {
 							<Link text_link="Certified Institute" />
 						</LinkBox>
 						<Button 
-						type_text="Learn More"
-						type_background="primary"
+						text="Learn More"
+						backG="#FF5A05"
 						/>
 					</CommunityBlockСhapter2>
 				</CommunityBlock>

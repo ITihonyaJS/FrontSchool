@@ -17,7 +17,10 @@ const Header = () => {
 				<HeaderBlock1>
 					<Logo></Logo>
 					<Nav></Nav>
-					<Button type_text="Get Started" type_background="primary"/>
+					<Button 
+					text="Get Started" 
+					backG="#FF5A05"
+					/>
 				</HeaderBlock1>
 				<HeaderBlock2>
 					<About />

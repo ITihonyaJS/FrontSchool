@@ -51,8 +51,14 @@ const About = (props) => {
 				</AboutTypographyBlock>
 			</AboutTypographyContainer>
 			<AboutButtonContainer>
-				<Button type_text="Get Started" type_background="primary" />
-				<Button type_text="Free Trail" type_border="border" />
+				<Button 
+				text="Get Started" 
+				backG="#FF5A05" 
+				/>
+				<Button 
+				text="Free Trail" 
+				border="1px solid #808080" 
+				/>
 			</AboutButtonContainer>
 		</AboutBlock>
 

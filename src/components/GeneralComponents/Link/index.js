@@ -1,13 +1,24 @@
 import React from 'react';
-import {LinkBlock} from "../../../generalElements";
+import {ViewBlock} from "../../../generalElements";
 
 
 const Link = (props) => {	
 	
 	return (
-		<LinkBlock >
+		<ViewBlock 
+		justify="center"
+		alignI="center"
+		isPointer
+		borderR="4px"
+		color="#05000B"
+		fz="20px"
+		fw="600"
+		lh="32px"
+		inner="0px 35px 0px 15px"
+
+		>
 			<a href="google.com">{props.text_link}</a>
-		</LinkBlock>
+		</ViewBlock>
 	);
 };
 
