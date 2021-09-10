@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Romb from "./components/Statistics/image/romb.png"
 
 // export const HeaderContainer = styled.div`
 //   background: linear-gradient(264.47deg, #2E43F0 29.39%, #6677FF 93.49%);
@@ -150,6 +151,7 @@ ${(props) => (props.text ? props.text : "")};
 export const LiBlock = styled.li`
 display: ${(props) => (props.displayView ? props.displayView : 'flex')};
 box-sizing: ${(props) => (props.boxS ? props.boxS : 'border-box')};
+background: ${(props) => (props.backG ? props.backG : `url(${Romb})center no-repeat`)};
 ${(props) => props.viewDirection && `flex-direction: ${props.viewDirection}`};
 ${(props) => props.alignI && `align-items: ${props.alignI}`};
 ${(props) => props.alignC && `align-content: ${props.alignC}`};
@@ -166,7 +168,7 @@ ${(props) => props.maxW && `max-width: ${props.maxW}`};
 ${(props) => props.minW && `min-width: ${props.minW}`};
 ${(props) => props.height && `height: ${props.height}`};
 ${(props) => props.zIndex && `z-index: ${props.zIndex}`};
-${(props) => props.backG && `background: ${props.backG}`};
+//${(props) => props.backG && `background: ${props.backG}`};
 ${(props) => props.border && `border: ${props.border}`};
 ${(props) => props.borderR && `border-radius: ${props.borderR}`};
 ${(props) => props.isPointer && 'cursor: pointer'};

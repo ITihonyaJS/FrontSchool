@@ -1,8 +1,6 @@
 import React from 'react';
 
-import { ContainerBlock,WrapperBlock,UlBlock,LiBlock,ViewBlock,Typography  } from "../../generalElements";
-
-import Romb from "./image/romb.png"
+import { ContainerBlock, WrapperBlock, UlBlock, LiBlock, ViewBlock, Typography } from "../../generalElements";
 
 
 
@@ -31,63 +29,60 @@ const Statistics = () => {
 		}
 	]
 	return (
-		<ContainerBlock
-		color="#FFFFFF"
+		<ContainerBlock		
+		backG="#FFFFFF"
 		>
 			<WrapperBlock
-			maxW="1134px"
-			outer="0 auto"			
-			inner="40px"
+				justify="center"
+				maxW="1134px"
+				outer="0 auto"
 			>
 				<UlBlock
-				justify="space-around"
-				alignI="center"				
-				outer="143px 0px 139px"
+					justify="space-between"
+					alignI="center"
+					outer="143px 0px 139px"					
 				>
-					{arrayStatistics.map(item => 
-					<LiBlock 
-					key={item.id}
-					justify="center"
-					alignI="center"					
-					width="261px"
-					height="371px"
-					color="black"
-					positionView="relative"
-					outer="15px"										
-					>
-						<ViewBlock
-						viewDirection="column"
-						positionView="absolute"	
-						justify="center"
-						alignI="center"					
-						top="20%"
-						left="50%"
-						ff="Inter"
+					{arrayStatistics.map(item =>
+						<LiBlock
+							key={item.id}
+							justify="center"
+							alignI="center"
+							outer="10px"
+							width="261px"
+							height="371px"
+							color="black"
 						>
-							<Typography
-							color="#1F37FF"
-							fz="55px"
-							lh="66px"
-							fw="700"
+							<ViewBlock
+								viewDirection="column"
+								justify="flex-start"
+								alignI="center"
+								height="371px"
+								inner="90px 0px 0px"								
 							>
-								{item.count}
-							</Typography>
-							<Typography
-							color="#05000B"
-							fz="20px"
-							lh="32px"
-							fw="600"
-							>
-								{item.text}
-							</Typography>							
-						</ViewBlock>						
-						<ViewBlock
-						justify="center"
-						alignI="center"						
-						>
-							<img src={Romb} alt="Ой" />							
-						</ViewBlock>
-					</LiBlock>)}
+								<ViewBlock>
+									<Typography
+										color="#1F37FF"
+										fz="55px"
+										lh="66px"
+										fw="700"
+										ff="Inter"
+									>
+										{item.count}
+									</Typography>
+								</ViewBlock>
+								<ViewBlock>
+									<Typography
+										color="#05000B"
+										fz="20px"
+										lh="32px"
+										fw="600"
+										ff="Inter"
+									>
+										{item.text}
+									</Typography>
+								</ViewBlock>
+							</ViewBlock>
+						</LiBlock>)}
 				</UlBlock>
 			</WrapperBlock>
 		</ContainerBlock>
