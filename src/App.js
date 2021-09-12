@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Partners from './components/Partners';
 import Community from './components/Сommunity/index';
 import Statistics from './components/Statistics';
+import Slills from './components/Skills'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
 		<Partners/>
 		<Community />
 		<Statistics />
+		<Slills />
     </>
   );
 }
