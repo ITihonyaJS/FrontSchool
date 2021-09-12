@@ -18,15 +18,13 @@ export const HeaderBlock1 = styled.div`
 	display: flex;	
 	justify-content:space-between;
 	align-items:center;	
-	margin: 0px 0px 48px 0px;
-	font-family: "Inter"
+	margin: 0px 0px 48px 0px;	
 `
 
 export const HeaderBlock2 = styled.div`
 	display: flex;
 	justify-content:space-between;	
-	margin: 0px 0px 82px 0px;
-	font-family: "Inter";	
+	margin: 0px 0px 82px 0px;		
 `
 
 

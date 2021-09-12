@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, {createGlobalStyle} from "styled-components";
 import Romb from "./components/Statistics/image/romb.png"
 
 // export const HeaderContainer = styled.div`
@@ -13,6 +13,15 @@ import Romb from "./components/Statistics/image/romb.png"
 // `
 
 //Шаблон______________________________________________________________________________________
+
+export const GlobalStyle = createGlobalStyle`
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Inter";
+}
+`
 
 export const ContainerBlock = styled.div`
 display: ${(props) => (props.displayView ? props.displayView : 'flex')};
@@ -168,7 +177,6 @@ ${(props) => props.maxW && `max-width: ${props.maxW}`};
 ${(props) => props.minW && `min-width: ${props.minW}`};
 ${(props) => props.height && `height: ${props.height}`};
 ${(props) => props.zIndex && `z-index: ${props.zIndex}`};
-//${(props) => props.backG && `background: ${props.backG}`};
 ${(props) => props.border && `border: ${props.border}`};
 ${(props) => props.borderR && `border-radius: ${props.borderR}`};
 ${(props) => props.isPointer && 'cursor: pointer'};
