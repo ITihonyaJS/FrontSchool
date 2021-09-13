@@ -26,6 +26,11 @@ export const GlobalStyle = createGlobalStyle`
 }
 `
 
+export const Wrapper = styled.div`
+  max-width: 1134px;
+  margin: 0 auto;
+`
+
 export const StyledBlock = styled.div`
 display: ${(props) => (props.displayView ? props.displayView : 'flex')};
 ${(props) => props.backG && `background: ${props.backG}`};

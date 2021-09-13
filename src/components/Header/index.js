@@ -8,32 +8,28 @@ import Logo from './components/Logo/index';
 import Nav from './components/Nav/index';
 import About from './components/About/index';
 import Image from './components/Image/index';
-
-
-
+import {Wrapper} from "../../generalElements";
 
 const Header = () => {
 	return (
 		<HeaderContainer>
-			<HeaderBody>
-				<HeaderGeneralBlock>
-					<HeaderTopBlock>
-						<Logo>
-							Logo
-						</Logo>
-						<Nav />						
-						<HeaderButtonBlock>
-							<ButtonBlock>
-								Get Started
-							</ButtonBlock>
-						</HeaderButtonBlock>
-					</HeaderTopBlock>
-					<HeaderBottomBlock>
-						<About />
-						<Image />
-					</HeaderBottomBlock>
-				</HeaderGeneralBlock>
-			</HeaderBody>
+			<Wrapper>
+				<HeaderTopBlock>
+					<Logo>
+						Logo
+					</Logo>
+					<Nav />
+					<HeaderButtonBlock>
+						<ButtonBlock>
+							Get Started
+						</ButtonBlock>
+					</HeaderButtonBlock>
+				</HeaderTopBlock>
+				<HeaderBottomBlock>
+					<About />
+					<Image />
+				</HeaderBottomBlock>
+			</Wrapper>
 		</HeaderContainer>
 	);
 };
