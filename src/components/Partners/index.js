@@ -9,14 +9,14 @@ import { PartnersContainer, PartnersWrapper } from "./elements";
 
 
 
-const Partners = () => {
-	return (
-		<PartnersContainer>
-			<PartnersWrapper>
-				<ListPartners />				
-			</PartnersWrapper>
-		</PartnersContainer>
-	);
-};
+// const Partners = () => {
+// 	return (
+// 		<PartnersContainer>
+// 			<PartnersWrapper>
+// 				<ListPartners />				
+// 			</PartnersWrapper>
+// 		</PartnersContainer>
+// 	);
+// };
 
-export default Partners
+// export default Partners

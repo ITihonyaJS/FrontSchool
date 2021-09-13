@@ -5,15 +5,17 @@ import Partners from './components/Partners';
 import Community from './components/Сommunity/index';
 import Statistics from './components/Statistics';
 import Slills from './components/Skills'
+import Reviews from './components/Reviews'
 
 function App() {
   return (
     <>
       <Header />
-		<Partners/>
+		{/* <Partners/>
 		<Community />
 		<Statistics />
 		<Slills />
+		<Reviews/> */}
     </>
   );
 }

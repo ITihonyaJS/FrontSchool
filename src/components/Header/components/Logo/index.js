@@ -1,12 +1,12 @@
 import React from 'react';
 
-import LogoHeader from "../../image/logo.png"
+import {LogoBlock} from "./elements"
 
-const Logo = () => {
+
+
+const Logo = (props) => {	
 	return (
-		<>
-			<img src={LogoHeader} alt="Ой картинки нет" />
-		</>
+		<LogoBlock {...props}/>	
 	);
 };
 

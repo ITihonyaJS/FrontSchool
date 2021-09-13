@@ -1,5 +1,5 @@
 import React from 'react';
-import {ViewBlock} from "../../../generalElements";
+import {ViewBlock} from "../../generalElements";
 
 
 const Link = (props) => {	
