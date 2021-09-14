@@ -23,7 +23,7 @@ export const HeaderTopBlock = styled.div`
 export const HeaderBottomBlock = styled.div`
 	display: flex;		
 	justify-content:center;	
-	margin: 0px 0px 70px;
+	margin: 0px 0px 70px;	
 	//align-items: center;
 `
 export const HeaderButtonBlock = styled.div`
