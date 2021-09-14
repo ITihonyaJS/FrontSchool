@@ -15,12 +15,9 @@ import Image from './components/Image/index';
 const Header = () => {
 	return (
 		<HeaderContainer>
-			<HeaderBody>
-				<HeaderGeneralBlock>
+			<HeaderBody>				
 					<HeaderTopBlock>
-						<Logo>
-							Logo
-						</Logo>
+						<Logo/>						
 						<Nav />						
 						<HeaderButtonBlock>
 							<ButtonBlock>
@@ -31,8 +28,7 @@ const Header = () => {
 					<HeaderBottomBlock>
 						<About />
 						<Image />
-					</HeaderBottomBlock>
-				</HeaderGeneralBlock>
+					</HeaderBottomBlock>				
 			</HeaderBody>
 		</HeaderContainer>
 	);

@@ -61,7 +61,7 @@ ${(props) => props.op && `opacity: ${props.op}`};
 
 export const StyledButton = styled.button`
 ${(props) => props.backG && `background: ${props.backG}`};
-${(props) => props.padding && `padding: ${props.inner}`};
+${(props) => props.padding && `padding: ${props.padding}`};
 ${(props) => props.isPointer && 'cursor: pointer'};
 ${(props) => props.border && `border: ${props.border}`};
 ${(props) => props.borderR && `border-radius: ${props.borderR}`};

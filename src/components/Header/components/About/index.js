@@ -1,78 +1,78 @@
 import React from 'react';
 
-import { AboutGeneralBlock, AboutTextBlock, AboutTypography, AboutButtonBlock } from "./elements";
+import { AboutGeneralBlock, AboutTextBlock, AboutTypography, AboutButtonBlock,ButtonBlock } from "./elements";
 
-import Button from '../../../../GeneralComponents/Button/index';
+
 
 
 const About = (props) => {
 	return (
-		<AboutGeneralBlock
-			flex="1 1 40%"
-			viewDirection="column"
-		>
+		<AboutGeneralBlock>
 			<AboutTextBlock>
 				<AboutTypography
-					type_fz="average"
-					type_color="white"
-					type_tt="uppercase"
-					type_fw="average"
-					type_lh="average"
-					type_ls="yes"
+					fz="16px"
+					color="white"
+					tt="uppercase"
+					fw="600"
+					lh="32px"
+					ls="5px"
 				>
 					Inspiration Technology.
 				</AboutTypography>
 				<AboutTypography
-					type_fz="super big"
-					type_color="white"
-					type_fw="big"
-					type_lh="super big"
+					fz="61px"
+					color="white"				
+					fw="700"
+					lh="73px"
+					padding="15px 0px 0px"					
 				>
 					Runs faster.
 				</AboutTypography>
 				<AboutTypography
-					type_fz="big"
-					type_color="white"
-					type_lh="big"
+					fz="50px"
+					color="white"					
+					fw="500"
+					lh="60px"
+					padding="0px 0px 41px"					
 				>
 					Costs less and never breaks.
 				</AboutTypography>
 				<AboutTypography
-					type_color="white"
-					type_op="yes"
+					fz="16px"
+					color="white"				
+					fw="500"
+					lh="25px"
+					op="0.7"
 				>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sapien lectus sit tristique rhoncus, nisi, malesuada. Tellus consequat
 				</AboutTypography>
 			</AboutTextBlock>
 			<AboutButtonBlock>
-				<Button
+				<ButtonBlock
 					backG="#FF5A05"
-					isPointer
-					//outer="0px 40px 0px 0px"
-					//inner="15px 30px"
+					isPointer					
 					borderR="4px"
-					color="#FFFFFF"
-					//fz="20px"
-					//fw="500"
-					//boxS="border-box"
+					padding="15px 30px"					
 				>
-					<AboutTypography>Get Started</AboutTypography>
-				</Button>
-				<Button
-					border="1px solid #808080"
-					justify="center"
-					alignI="center"
-					isPointer
-					outer="0px 40px 0px 0px"
-					inner="15px 30px"
-					borderR="4px"
+					<AboutTypography
 					color="#FFFFFF"
 					fz="20px"
 					fw="500"
-					boxS="border-box"
+					>Get Started</AboutTypography>
+				</ButtonBlock>
+				<ButtonBlock
+					backG="transparent"
+					border="1px solid #808080"					
+					isPointer					
+					borderR="4px"
+					padding="15px 30px"				
 				>
-					<AboutTypography>Free Trail</AboutTypography>
-				</Button>
+					<AboutTypography
+					color="#FFFFFF"
+					fz="20px"
+					fw="500"
+					>Free Trail</AboutTypography>
+				</ButtonBlock>
 			</AboutButtonBlock>
 		</AboutGeneralBlock>
 	);

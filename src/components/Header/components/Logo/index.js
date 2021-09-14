@@ -1,12 +1,14 @@
 import React from 'react';
 
 import {LogoBlock} from "./elements"
+import LogoHeader from "./image/logo.png"
 
-
-
-const Logo = (props) => {	
+//почему не работает без img?
+const Logo = () => {	
 	return (
-		<LogoBlock {...props}/>	
+		<LogoBlock>
+			<img src={LogoHeader} alt="ой" />
+		</LogoBlock>
 	);
 };
 

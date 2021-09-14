@@ -11,25 +11,20 @@ export const HeaderContainer = styled.div`
 export const HeaderBody = styled.div`
   max-width: 1134px;
   margin: 0 auto;
-`
-
-export const HeaderGeneralBlock = styled.div`
-	display: flex;
-	flex-direction:column ;
-	justify-content:center;
-	align-items:center;		
-`
+  `
 
 export const HeaderTopBlock = styled.div`
 	display: flex;		
 	justify-content:space-between;
-	align-items:center;	
+	align-items:center;
+	margin: 60px 0px 47px
 `
 
 export const HeaderBottomBlock = styled.div`
 	display: flex;		
-	justify-content:space-between;	
-	margin: 0px 0px 82px 0px;
+	justify-content:center;	
+	margin: 0px 0px 70px;
+	//align-items: center;
 `
 export const HeaderButtonBlock = styled.div`
 	display: flex;		
