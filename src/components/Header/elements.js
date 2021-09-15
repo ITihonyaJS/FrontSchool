@@ -1,6 +1,8 @@
 
 import styled from "styled-components";
 
+import {Wrapper,StyledButton} from "../../generalElements"
+
 
 
 export const HeaderContainer = styled.div`
@@ -8,9 +10,8 @@ export const HeaderContainer = styled.div`
   padding: 60px 0 70px;  
 `
 
-export const HeaderBody = styled.div`
-  max-width: 1134px;
-  margin: 0 auto;
+export const HeaderBody = styled(Wrapper)`
+  
   `
 
 export const HeaderTopBlock = styled.div`
@@ -32,7 +33,7 @@ export const HeaderButtonBlock = styled.div`
 	align-items:center;
 	margin: 0 -30px ;
 `
-export const ButtonBlock = styled.button`
+export const HeaderButton = styled(StyledButton)`
 	background:#FF5A05;
 	color: #FFFFFF;
 	font-size: 20px;

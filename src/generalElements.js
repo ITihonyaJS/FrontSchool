@@ -26,6 +26,11 @@ export const GlobalStyle = createGlobalStyle`
 }
 `
 
+export const Wrapper = styled.div`
+	max-width: 1134px;
+	margin: 0 auto;
+`
+
 export const StyledBlock = styled.div`
 display: ${(props) => (props.displayView ? props.displayView : 'flex')};
 ${(props) => props.backG && `background: ${props.backG}`};
@@ -62,6 +67,7 @@ ${(props) => props.op && `opacity: ${props.op}`};
 export const StyledButton = styled.button`
 ${(props) => props.backG && `background: ${props.backG}`};
 ${(props) => props.padding && `padding: ${props.padding}`};
+${(props) => props.margin && `margin: ${props.margin}`};
 ${(props) => props.isPointer && 'cursor: pointer'};
 ${(props) => props.border && `border: ${props.border}`};
 ${(props) => props.borderR && `border-radius: ${props.borderR}`};

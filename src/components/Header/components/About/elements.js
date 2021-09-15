@@ -28,6 +28,6 @@ export const AboutTypography = styled(StyledTypography)`
 ${(props) => props.padding && `padding: ${props.padding}`};
 `
 
-export const ButtonBlock = styled(StyledButton)`
+export const AboutButton = styled(StyledButton)`
 	margin: 0px 45px 0px 0px;
 `

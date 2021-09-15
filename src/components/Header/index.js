@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { HeaderContainer, HeaderBody, HeaderGeneralBlock, HeaderTopBlock,HeaderBottomBlock,HeaderTypography, HeaderButtonBlock,ButtonBlock } from "./elements";
+import { HeaderContainer, HeaderBody, HeaderGeneralBlock, HeaderTopBlock,HeaderBottomBlock,HeaderTypography, HeaderButtonBlock,HeaderButton } from "./elements";
 
 
 
@@ -20,9 +20,9 @@ const Header = () => {
 						<Logo/>						
 						<Nav />						
 						<HeaderButtonBlock>
-							<ButtonBlock>
+							<HeaderButton>
 								Get Started
-							</ButtonBlock>
+							</HeaderButton>
 						</HeaderButtonBlock>
 					</HeaderTopBlock>
 					<HeaderBottomBlock>

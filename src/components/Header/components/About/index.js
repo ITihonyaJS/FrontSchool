@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { AboutGeneralBlock, AboutTextBlock, AboutTypography, AboutButtonBlock,ButtonBlock } from "./elements";
+import { AboutGeneralBlock, AboutTextBlock, AboutTypography, AboutButtonBlock,AboutButton } from "./elements";
 
 
 
@@ -48,7 +48,7 @@ const About = (props) => {
 				</AboutTypography>
 			</AboutTextBlock>
 			<AboutButtonBlock>
-				<ButtonBlock
+				<AboutButton
 					backG="#FF5A05"
 					isPointer					
 					borderR="4px"
@@ -59,8 +59,8 @@ const About = (props) => {
 					fz="20px"
 					fw="500"
 					>Get Started</AboutTypography>
-				</ButtonBlock>
-				<ButtonBlock
+				</AboutButton>
+				<AboutButton
 					backG="transparent"
 					border="1px solid #808080"					
 					isPointer					
@@ -72,7 +72,7 @@ const About = (props) => {
 					fz="20px"
 					fw="500"
 					>Free Trail</AboutTypography>
-				</ButtonBlock>
+				</AboutButton>
 			</AboutButtonBlock>
 		</AboutGeneralBlock>
 	);
