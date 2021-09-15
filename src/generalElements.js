@@ -1,5 +1,5 @@
 import styled, {createGlobalStyle} from "styled-components";
-//import Romb from "./components/Statistics/image/romb.png"
+
 
 //Шаблон________________________________________________________________________
 
@@ -72,25 +72,6 @@ ${(props) => props.isPointer && 'cursor: pointer'};
 ${(props) => props.border && `border: ${props.border}`};
 ${(props) => props.borderR && `border-radius: ${props.borderR}`};
 `
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
