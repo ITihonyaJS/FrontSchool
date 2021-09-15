@@ -6,7 +6,7 @@ background: #FFF9F5;
 `
 
 export const SkillsBody = styled(Wrapper)`
-
+padding: 3% 0;
 `
 
 export const SkillsGeneralBlock = styled(StyledBlock)`

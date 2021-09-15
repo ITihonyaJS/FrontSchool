@@ -56,7 +56,7 @@ const Skills = () => {
 					wrap="wrap"
 					justify="center"
 					alignI="center"
-					margin="5% -15px"
+					margin="0 -15px"
 				>
 					<SkillsTextBlock
 						flexD="column"
