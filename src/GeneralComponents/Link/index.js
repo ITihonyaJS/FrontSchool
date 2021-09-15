@@ -1,13 +1,13 @@
 import React from 'react';
-import {ViewBlock} from "../../generalElements";
+import {StyledBlock} from "../../generalElements";
 
 
 const Link = (props) => {	
 	
 	return (
-		<ViewBlock {...props}>
+		<StyledBlock {...props}>
 			<a href="google.com">{props.children}</a>
-		</ViewBlock>
+		</StyledBlock>
 	);
 };
 

@@ -1,17 +1,17 @@
 import React from 'react';
-import {ViewBlock} from "../../../generalElements";
+import {StyledBlock} from "../../generalElements";
 import IconGalka from "./image/galka.png"
 
 const Galka = (props) => {	
 	
 	return (
-		<ViewBlock 
+		<StyledBlock 
 		jastify="center"
 		alignI="center"
 		boxS="border-box"
 		>
 			<img src={IconGalka} alt="Ой" />
-		</ViewBlock>
+		</StyledBlock>
 	);
 };
 
