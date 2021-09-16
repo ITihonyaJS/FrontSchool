@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { HeaderContainer, HeaderBody, HeaderGeneralBlock, HeaderTopBlock,HeaderBottomBlock,HeaderTypography, HeaderButtonBlock,HeaderButton } from "./elements";
+import { HeaderContainer, HeaderBody,HeaderTopBlock,HeaderBottomBlock, HeaderButtonBlock,HeaderButton } from "./elements";
 
 
 

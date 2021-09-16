@@ -15,7 +15,7 @@ function App() {
 		<Community />
 		<Statistics />
 		<Skills />
-		{/* <Reviews/> */}
+		<Reviews/>
     </>
   );
 }
