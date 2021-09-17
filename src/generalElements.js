@@ -62,6 +62,7 @@ ${(props) => props.lh && `line-height: ${props.lh}`};
 ${(props) => props.ls && `letter-spacing: ${props.ls}`};
 ${(props) => props.tt && `text-transform: ${props.tt}`};
 ${(props) => props.op && `opacity: ${props.op}`};
+${(props) => props.textA && `text-align: ${props.textA}`};
 `
 
 export const StyledButton = styled.button`
@@ -71,16 +72,8 @@ ${(props) => props.margin && `margin: ${props.margin}`};
 ${(props) => props.isPointer && 'cursor: pointer'};
 ${(props) => props.border && `border: ${props.border}`};
 ${(props) => props.borderR && `border-radius: ${props.borderR}`};
+${(props) => props.textA && `text-align: ${props.textA}`};
 `
-
-
-
-
-
-
-
-
-
 
 
 
