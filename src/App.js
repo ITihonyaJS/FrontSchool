@@ -7,6 +7,7 @@ import Statistics from './components/Statistics';
 import Skills from './components/Skills'
 import Reviews from './components/Reviews'
 import FormOfPayment from './components/FormOfPayment'
+import PriceAndNews from './components/PriceAndNews'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
 		<Skills />
 		<Reviews/>
 		<FormOfPayment/>
+		<PriceAndNews/>
     </>
   );
 }

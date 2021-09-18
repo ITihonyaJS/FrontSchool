@@ -2,7 +2,7 @@ import React from 'react';
 
 import { ContainerBlock, WrapperBlock, StatisticsBlock, StatisticsItem, Typography, TextBlock,AbsoluteBlock } from "./elements";
 
-import Romb from "./image/romb.png"
+import Romb from "./image/romb2.png"
 
 
 
@@ -38,13 +38,12 @@ const Statistics = () => {
 				<StatisticsBlock>
 					{arrayStatistics.map(item =>
 						<StatisticsItem
-							backG={`url(${Romb})center/no-repeat`}
+							backG={`url(${Romb})center/100% 100% no-repeat`}
 							flexD="column"
-							justify="center"
+							justify="flex-start"
 							alignI="center"
-							position="relative"													
-						>
-							<img src={Romb} alt="Ой" />
+							padding="5% 0 0"																				
+						>							
 							<AbsoluteBlock>
 								<TextBlock>
 									<Typography
