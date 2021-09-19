@@ -3,7 +3,8 @@ import React from 'react';
 import Image1 from "./image/1.png"
 import Image2 from "./image/2.png"
 import Image3 from "./image/3.png"
-import Image4 from "./image/4.png"
+import Image4VL from "./image/4VL.png"
+import Image4VR from "./image/4VR.png"
 import Image5 from "./image/5.png"
 import Image6 from "./image/6.png"
 import Image7 from "./image/7.png"
@@ -12,10 +13,10 @@ import {
 	ReviewsContainer, ReviewsBody, ReviewsTitleBlock, TitleText,
 	SubTitleText, ReviewsBlock, TextBlock, TitleReviews, NameUsers,
 	TextReviews, RatingRevievs, ImageBlock, QuotesBlock, UsersBlock,
-	SliderBlock, ArrowBlock,QuotesItem
+	SliderBlock, ButtonLeftBlock,ButtonRightBlock,ButtonLeft,ButtonRight,QuotesItem
 } from "./elements";
 
-import { StyledTypography } from "../../generalElements"
+import { StyledTypography, StyledButton } from "../../generalElements"
 
 
 
@@ -83,22 +84,23 @@ const Reviews = () => {
 								<img src={Image7} alt="Ой" />
 							</RatingRevievs>
 						</TextReviews>
-						<SliderBlock>
-							<img src={Image4} alt="Ой" />
-							<ArrowBlock>
-								<img src={Image5} alt="Ой" />
-							</ArrowBlock>
+						<SliderBlock>							
+							<ButtonLeftBlock	>
+								<ButtonLeft><img src={Image4VL} alt="Ой" /></ButtonLeft>
+							</ButtonLeftBlock>
+							<ButtonRightBlock>
+								<ButtonRight><img src={Image4VR} alt="Ой" /></ButtonRight>
+							</ButtonRightBlock>							
 						</SliderBlock>
-
 					</TextBlock>
 					<ImageBlock>
 						<UsersBlock>
 							<img src={Image1} alt="Ой" />
 							<QuotesItem>
-								<img src={Image3} alt="Ой" />								
+								<img src={Image3} alt="Ой" />
 							</QuotesItem>
 							<QuotesBlock>
-								<img src={Image2} alt="Ой" />								
+								<img src={Image2} alt="Ой" />
 							</QuotesBlock>
 						</UsersBlock>
 

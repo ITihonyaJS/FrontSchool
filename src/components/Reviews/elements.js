@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
-import {StyledTypography,Wrapper,StyledBlock} from "../../generalElements"
+import {StyledTypography,Wrapper,StyledBlock,StyledButton} from "../../generalElements"
+
+import Image4L from "./image/4L.png"
+import Image4R from "./image/4R.png"
 
 
 export const ReviewsContainer = styled.div`
@@ -80,15 +83,33 @@ export const ImageBlock = styled.div`
 `
 
 export const SliderBlock = styled.div`
-position: relative;
-text-align: center;
+display: flex;
+justify-content: center;
+`
+export const ButtonLeftBlock = styled.div`
+margin-right: 15px;
+`
+export const ButtonRightBlock = styled.div`
+
 `
 
-export const ArrowBlock = styled.div`
-position: absolute;
-top: 40%;
-left: 45%;
+export const ButtonLeft = styled(StyledButton)`
+width: 46px;
+height: 46px;
+background: url(${Image4L});
 `
+
+export const ButtonRight = styled(StyledButton)`
+width: 46px;
+height: 46px;
+background: url(${Image4R});
+`
+
+// export const ArrowBlock = styled.div`
+// position: absolute;
+// top: 40%;
+// left: 45%;
+// `
 
 export const UsersBlock = styled.div`
 position: relative;
